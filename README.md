@@ -19,7 +19,7 @@ composer require atournayre/doctrine-types-bundle
 
 return [
     // ...
-    new \Atournayre\Bundle\DoctrineTypes\AtournayreDoctrineTypesBundle(),
+    Atournayre\Bundle\DoctrineTypes\AtournayreDoctrineTypesBundle::class => ['all' => true],
     // ...
 ]
 ```
